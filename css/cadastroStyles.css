@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Garante que o conteudo dos elementos não ultrapassem a borda*/
+	                        /*veja mais em : https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing*/
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/img/fundo-sobre-nos.jpg'); /*Veja mais em https://developer.mozilla.org/en-US/docs/Web/CSS/background-image*/
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 150%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 25px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #CBA68A;
+    background-image: url('/img/img-footer.jpg');
+    width: 690px;
+    color: #ffffff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+    font-size: 250%;
+}
+
+.cadastro{
+    background-color: rgba(255, 255, 255, 0.699);
+    border-color: #CBA68A;
+    flex-direction: auto;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 7px;
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 15px 15px 15px rgba(203, 166, 138, 0.568);
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.col{
+    margin-top: 10px;
+    border: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    width: 520px;
+    height: 40px;
+    padding: 10px 10px;
+}
+
+.col:hover{
+    border-color: rgb(60, 135, 248);
+}
+
+.bt{
+    background-color: #CBA68A;
+    color: #fff;
+    border: 0;
+    text-align: center;
+    padding: 10px 32px;
+    font-size: 20px;
+    margin: 15px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 500px;
+    
+}
+
+.bt:hover{
+    background-color: #cba68a93;
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Empório Padaraia | Site Oficial</title>
+    <link rel="shortcut icon" href="img/padaria.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+  <body>
+    <header>
+      <img src="img/pao.png" alt="" />
+      <h1>EMPÓRIO PADARIA</h1>
+      <nav>
+        <span class="material-symbols-outlined" onclick="clickMenu()">
+          menu
+        </span>
+        <ul id="list-menu">
+          <li class="item-menu-header" ><a href="#featured-products">Produtos</a></li>
+          <li class="item-menu-header"><a href="#sobre-nos">Sobre nós</a></li>
+          <li class="item-menu-header"><a href="#contatos">Contatos</a></li>
+        </ul>
+      </nav>
+      <button type="button" id="btn-header">
+        <a href="login.html">
+          <img src="img/user.png" alt="" id="imgLogin">
+          <p>Login</p>
+        </a>
+      </button>
+    </header>
+
+    <!-- Inserir imagem da padoca -->
+    <div id="img-destaque"></div>
+
+    <!-- Inserir imagem divisória -->
+    <div class="img-div"></div>
+
+    <main>
+      <section id="clients">
+        <h2>NOSSOS CLIENTES</h2>
+        <hr class="line">
+        <ul id="clients-list">
+            <li class="clients-item">
+                <img src="img/personagem.png" alt="" class="imgPersonagem">
+                <h3>Jão da Silva</h3>
+                <p>"Ótimos produtos e serviços"</p>
+            </li>
+            <li class="clients-item">
+                <img src="img/personagemfemi.png" alt="" class="imgPersonagem">
+                <h3>Joana da Silva</h3>
+                <p>"Excelente preço</p>
+            </li>
+            <li class="clients-item">
+                <img src="img/personagem.png" alt="" class="imgPersonagem">
+                <h3>Marcelo Jão</h3>
+                <p>"Pães frescos e de ótima qualidade"</p>
+            </li>
+        </ul>
+      </section>
+      <!-- Inserir imagem divisória novamente -->
+      <div class="img-div" id="img-div2"></div>
+
+      <!-- Aqui é a sessão dos produtos da padaria -->
+      <section id="featured-products">
+        <h2>PRINCIPAIS PRODUTOS</h2>
+        <div class="products">
+          <div class="item-produto">
+              <div class="div-img-product">
+                <img src="img/muflin.jpg" alt="" class="img-product">
+              </div>
+              <div class="div-descr-products">
+                <h4 class="titles-products">Mufflin</h4>
+                <p class="descr-products">Delicioso mufflim Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam iusto sunt earum non rerum porro a molestiae, ea autem fugit blanditiis? Minus maxime iste consequuntur vel praesentium atque.</p>
+                <p class="preco">R$ 5,00</p>
+              </div>
+          </div>
+          
+          <div class="item-produto">
+            <div class="div-img-product">
+              <img src="img/croissant.jpeg" alt="" class="img-product">
+            </div>
+            <div class="div-descr-products">
+              <h4 class="titles-products">Croissant</h4>
+              <p class="descr-products">Delicioso Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam iusto sunt earum non rerum porro a molestiae, ea autem fugit blanditiis? Minus maxime iste consequuntur vel praesentium atque.</p>
+              <p class="preco">R$ 28,00</p>
+            </div>
+          </div>
+          <div class="item-produto">
+            <div class="div-img-product">
+              <img src="img/bolo.jpg" alt="" class="img-product">
+            </div>
+            <div class="div-descr-products">
+              <h4 class="titles-products">Bolo</h4>
+              <p class="descr-products">Delicioso Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam iusto sunt earum non rerum porro a molestiae, ea autem fugit blanditiis? Minus maxime iste consequuntur vel praesentium atque.</p>
+              <p class="preco">R$ 82,00</p>
+            </div>
+          </div>
+          <div class="item-produto">
+            <div class="div-img-product">
+              <img src="img/bomba-chocolate.jpg" alt="" class="img-product">
+            </div>
+            <div class="div-descr-products">
+              <h4 class="titles-products">Bomba de Chocolate</h4>
+              <p class="descr-products">Delicioso Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam iusto sunt earum non rerum porro a molestiae, ea autem fugit blanditiis? Minus maxime iste consequuntur vel praesentium atque.</p>
+              <p class="preco">R$ 18,00</p>
+            </div>
+          </div>
+          <div class="item-produto">
+            <div class="div-img-product">
+              <img src="img/beirute.png" alt="" class="img-product">
+            </div>
+            <div class="div-descr-products">
+              <h4 class="titles-products">Beirute</h4>
+              <p class="descr-products">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam iusto sunt earum non rerum porro a molestiae, ea autem fugit blanditiis? Minus maxime iste consequuntur vel praesentium atque.</p>
+              <p class="preco">R$ 32,00</p>
+            </div>
+          </div>
+          <div class="item-produto">
+            <div class="div-img-product">
+              <img src="img/pao-de-metro.jpg" alt="" class="img-product">
+            </div>
+            <div class="div-descr-products">
+              <h4 class="titles-products">Pão de Metro</h4>
+              <p class="descr-products">Delicioso ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam iusto sunt earum non rerum porro a molestiae, ea autem fugit blanditiis? Minus maxime iste consequuntur vel praesentium atque.</p>
+              <p class="preco">R$ 8,00</p>
+            </div>
+          </div>
+
+          <div class="item-produto">
+            <div class="div-img-product">
+              <img src="img/Pao-Italiano-Caseiro.jpeg" alt="" class="img-product">
+            </div>
+            <div class="div-descr-products">
+              <h4 class="titles-products">Pão Italiano redondo</h4>
+              <p class="descr-products">Delicioso Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam iusto sunt earum non rerum porro a molestiae, ea autem fugit blanditiis? Minus maxime iste consequuntur vel praesentium atque.</p>
+              <p class="preco">R$ 12,00</p>
+            </div>
+          </div>
+
+          <div class="item-produto">
+            <div class="div-img-product">
+              <img src="img/paoAustraliano.webp" alt="" class="img-product">
+            </div>
+            <div class="div-descr-products">
+              <h4 class="titles-products">Pão Autraliano </h4>
+              <p class="descr-products">Delicioso Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam iusto sunt earum non rerum porro a molestiae, ea autem fugit blanditiis? Minus maxime iste consequuntur vel praesentium atque.</p>
+              <p class="preco">R$ 15,00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Aqui apresenta um texto falando sobre a Padaria -->
+      <section id="sobre-nos">
+        <h3>SOBRE NÓS</h3>
+        <p>Aqui são produzidos diariamente mais de 1 tonelada de pão francês. Mais de 60 tipos de sobremesas e doces, além de diversos tipos de pães especiais.</p>
+        <p>Toda essa produção é acompanhada de perto por especialistas e técnicos em segurança alimentar que seguem os mais rígidos processos de qualidade e higiene. A padronização dos produtos que saem daqui para as lojas Delta, garante que você sempre vai encontrar essas delícias com o mesmo sabor, peso e textura. A Central de Panificação Delta conta com mais de 60 colaboradores, cada um especialista em sua área. Uma verdadeira padaria industrial, sem deixar de lado o toque caseiro que você pode conferir nos produtos Gran Delta e De Vitta, a qualquer momento em nossas lojas.</p>
+        <p>Aqui são produzidos diariamente produtos da mais alta qualidade com todo o carinho, segurança e sempre muito fresquinhos.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio excepturi non soluta nam, officiis, fugiat hic iure tempora sunt impedit quis. Obcaecati dolore voluptates nemo voluptatum doloremque quisquam quae repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, odit iure veritatis vitae assumenda at aperiam sunt, repellendus accusantium quos dolore! Dignissimos sint eveniet qui est quo nihil dolore saepe.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio excepturi non soluta nam, officiis, fugiat hic iure tempora sunt impedit quis. Obcaecati dolore voluptates nemo voluptatum doloremque quisquam quae repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, odit iure veritatis vitae assumenda at aperiam sunt, repellendus accusantium quos dolore! Dignissimos sint eveniet qui est quo nihil dolore saepe.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio excepturi non soluta nam, officiis, fugiat hic iure tempora sunt impedit quis. Obcaecati dolore voluptates nemo voluptatum doloremque quisquam quae repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, odit iure veritatis vitae assumenda at aperiam sunt, repellendus accusantium quos dolore! Dignissimos sint eveniet qui est quo nihil dolore saepe.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio excepturi non soluta nam, officiis, fugiat hic iure tempora sunt impedit quis. Obcaecati dolore voluptates nemo voluptatum doloremque quisquam quae repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, odit iure veritatis vitae assumenda at aperiam sunt, repellendus accusantium quos dolore! Dignissimos sint eveniet qui est quo nihil dolore saepe.</p>
+      </section>
+    </main>
+
+    <!-- No rodapé aparecem as formas de contado  -->
+    <footer >
+      <h2>CONTATOS</h2>
+
+      <div id="contatos">
+        
+        <div class="item-menu-footer">
+          <p><img src="img/icon-telephone.png" alt=""> (11) 5555-8555</p>
+          <p><img src="img/icon-local.png" alt=""> Rua Pães Torrados, 757</p>
+        </div>
+
+        <div class="item-menu-footer">
+          <p><img src="img/icon-wpp.png" alt=""> (11) 99999-5555</p>
+          <p><img src="img/icon-instagram.png" alt=""> @emporiopadaria</p>
+        </div>
+
+      </div>
+    </footer>
+    <script>
+      function clickMenu() {
+        var menu = document.getElementById('list-menu')
+        if (menu.style.display=='block'){
+          menu.style.visibility='hiddem'
+          menu.style.display='none'
+        } else{
+          menu.style.visibility='visible'
+          menu.style.display='block'
+        }
+      }
+    </script>
+
+  </body>
+</html>
+
+

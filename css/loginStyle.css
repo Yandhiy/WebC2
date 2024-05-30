@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Garante que o conteudo dos elementos não ultrapassem a borda*/
+	                        /*veja mais em : https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing*/
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('/img/fundo-sobre-nos.jpg'); 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 105%;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.formulario{
+    background-color: rgb(255, 255, 255);
+    border-color: #CBA68A;
+    flex-direction: auto;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 7px;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 15px 15px 15px rgba(203, 166, 138, 0.568);
+    margin-top: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    margin-top: 10px;
+    border: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    width: 520px;
+    height: 40px;
+    padding: 10px 10px;
+}
+
+.login:hover{
+    border-color: rgb(60, 135, 248);
+}
+
+.bt{
+    background-color: #CBA68A;
+    color: #fff;
+    border: 0;
+    text-align: center;
+    padding: 10px 32px;
+    font-size: 20px;
+    margin: 5px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 520px;
+}
+
+.bt:hover{
+    background-color: #cba68a93;
+}
